@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/rstefani87info/ares-documents.git/issues"
   },
-  "homepage": "https://github.com/rstefani87info/ares-documents.git#readme"
+  "homepage": "https://github.com/rstefani87info/ares-documents.git#readme",
+  "dependencies": {
+    "markdown-it": "^15.0.0",
+    "turndown": "^7.2.4"
+  },
+  "devDependencies": {
+    "@ares/scd": "workspace:^"
+  }
 }
